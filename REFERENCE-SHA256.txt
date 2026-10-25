@@ -1,0 +1,17 @@
+Spawn The World v1.0.0 — confirmed functional release binary
+
+File: dinput8.dll
+SHA-256: eb4c551d3b6d4f92636bf902812133d81a5ba5568391138ab5d07b279389b4a6
+Platform: Windows x64
+Confirmed: 2026-10-25
+
+This hash belongs to the exact binary that was tested successfully in Enshrouded.
+A rebuild from the same source may have a different SHA-256 because compiler,
+linker or build-environment details can change the final binary representation.
+
+The public source in this archive preserves the confirmed release architecture and functionality.
+Public naming, comments and log text were cleaned up for the v1.0.0 release, so a rebuild is not expected to be byte-identical to the tested binary.
+
+Legacy compatibility details
+----------------------------
+The public source keeps the tested DLL's internal OBS_GetVersion export (v0.4) and OneButtonSpawner-native.log filename. These are legacy internal identifiers; the public release name remains Spawn The World v1.0.0.
